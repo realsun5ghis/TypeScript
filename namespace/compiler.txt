@@ -1,0 +1,3 @@
+tsc --outFile sample.js Test.ts
+tsc --outFile sample.js Validation.ts LettersOnlyValidator.ts ZipCodeValidator.ts Test.ts
+node sample.js
